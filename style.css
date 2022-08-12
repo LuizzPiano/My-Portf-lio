@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgba(24, 23, 23, 0.897);
+    color: #ffffff;
+    font-size: 62.5%;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+}
+
+.nav {
+    padding: 2rem 6rem;
+}
+
+
+
+.nav-link {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.nav-link a{
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.avatar{
+    border-radius: 100%;
+    width: 24rem;
+    height: 24rem;
+    margin-right: 10rem;
+}
+
+footer,
+section{
+    padding: 5rem;
+    max-width: 96rem;
+    margin: 0 auto;
+}
+
+footer{
+    flex-direction: column;
+}
+
+h2{
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+
+
+.itens-center{
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+}
+
+
+.main-title{
+    font-size: 4rem;
+
+}
+
+.main-description {
+    margin: 4rem 0;
+}
+
+.button {
+    border-radius: 1rem;
+    background-color: #ADFF2F;
+    padding: 1rem 2rem;
+    color:  rgba(24, 23, 23, 0.897);
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 5px solid #000000a9;
+    transition: transform 0.5s;
+    
+}
+
+.button:hover{
+    background-color: #ADFF2F;
+    box-shadow: 0px 0px 20px #7fbd21 ;
+    transform: translate(0px, -10px);
+    transition: transform 0.5s;
+}
+
+.about {
+    background-color: #ADFF2F;
+    color: rgba(24, 23, 23, 0.897);
+    /* width: 100%; */
+    
+}
+
+.projetos{
+    margin: 4rem 0 ;
+}
+
+.projeto-imagens{
+    width: 24rem;
+    height: 24rem;
+    margin-right: 2.5rem;
+    border-radius: 0.6rem;
+}
+
+.projetos-titulo{
+    font-size: 3rem;
+}
+
+.footer-sociais{
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-sociais img {
+    object-fit: contain;
+    width: 4.5rem;
+}
+
+
+/*reponsivel*/
+
+@media(max-width: 1200px){
+    .itens-center{
+        flex-direction: column;
+    }
+    footer,
+    section {
+        padding: 5rem;
+    }
+    .main {
+        margin-bottom: 2rem;
+}
+.main-title{
+    font-size: 3rem;
+
+}
+.projeto-imagens{
+    width: 38rem;
+    height: auto;
+    
+}
+
+.nav-link {
+    
+    justify-content: center;
+   
+}
+
+.avatar{
+   
+    width: 18rem;
+    height: 18rem;
+    margin-right: 0;
+}
+
+}
+
+span{
+    color: #ADFF2F;
+    
+}
