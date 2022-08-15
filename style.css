@@ -114,6 +114,9 @@ h2{
 
 .projetos-titulo{
     font-size: 3rem;
+    color:#ADFF2F;
+    font-weight: 600;
+
 }
 
 .footer-sociais{
@@ -169,3 +172,4 @@ span{
     color: #ADFF2F;
     
 }
+
